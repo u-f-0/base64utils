@@ -1,10 +1,8 @@
 // Package base64-utils contains utility functions for converting images to base64 format.
-package base64-utils
+package base64utils
 
 import (
-	"bytes"
 	"encoding/base64"
-	"fmt"
 	"io/ioutil"
 	"log"
 	"net/http"
